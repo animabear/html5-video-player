@@ -150,3 +150,8 @@ body {
 #volume-inner {
 	width: 100%; /* 音量默认100% */
 }
+
+/* fix bug in linux */
+.overflow-h {
+	overflow: hidden;
+}
